@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>PORTAFOLIO</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Menu HEADER-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">PETS LOVE DGR</a>
+
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE NOSOTROS</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">COMIDA</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">JUGUETES</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">ACCESORIOS</a></li>
+                    <li><a href="#personalizados" onclick="seleccionar()">PERSONALIZADOS</a></li>
+                   
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+               <i class="fa-solid fa-bars"></i> 
+            </div>
+
+        </header>
+    </div>
+
+    <!--Primera seccion-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./Imagenes/logofinal2.jpg" alt="">
+            </div>
+            <h1>Productos Y Accesorios</h1>
+           
+            <div class="redes">
+                <a href="https://www.facebook.com/profile.php?id=100073540724313&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                
+                
+            </div>
+        </div>
+    </section>
+
+     <!--Segunda seccion---Sobre mi-->
+    
+     <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Nosotros</h2>
+            <p><span> Pets love DGR tiene como objetivo principal ayudar a crear un mundo mejor, ayudando a amar y proteger a sus mascotas. Basados en nuestro equipo de trabajo somos solidarios socialmente, brindando la mayor cantidad de trabajo posible, innovando constantemente y logrando un prestigio que nos haga perdurar en el tiempo. Invirtiendo e innovando en proyectos para ampliar la estructura y seguir creciendo en otras ciudades. Aportando y participando solidariamente para crear una comunidad inclusiva y el cuidado del medio ambiente, lo cual nos llevara a ser una empresa moderna y sólida, líder en el país y con proyección internacional. Liderada por un equipo con acceso a la más alta calidad de capacitación y con una mirada colaborativa e inclusiva.  </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos de la empresa</h3>
+                    <ul>
+                        
+                        <li>
+                            <strong>Teléfono</strong>
+                            3128211769
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Avenida Calle 8 # 79c - 15,Kennedy Bogotá
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                           <br> gina.aguilar@cun.edu.co<br>
+                            ricardo.gonzales@cun.edu.co<br>
+                             dayan.mendez@cun.edu.co
+                        </li>
+                       
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses de la empresa con los clientes</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-face-smile-beam"></i>
+                            <span>SATISFACCIÒN</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-handshake"></i>
+                            <span>FIDELIZACIÒN</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-sharp fa-solid fa-oil-well"></i>
+                            <span>CALIDAD</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-dog"></i>
+                            <span>ATENCIÒN</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>INNOVACIÒN</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-sack-dollar"></i>
+                            <span>VALOR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-regular fa-phone"></i>
+                            <span>COMUNICACIÒN</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-money-bill-1"></i>
+                            <span>PRECIOS JUSTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+           
+    </section>
+
+    <!--Tercera  seccion---SKILLS-->
+    <section class="skills" id="skills">
+        
+        <h2>PRODUCTOS DE COMIDA</h2> 
+            <section class="products">
+               
+                <div id="contenedor-productos" ></div>
+               
+                <div class="product">
+                  <h2>Equilibrio</h2>
+                  <img src="./Imagenes/comida 1.PNG" alt="Imagen del producto 1">
+                  <p><b> Precio:</b> $73.700</p>
+                  <p><b> Descripción:</b>Perfecta combinaciòn de ingredientes.Mejora trànsito intestinal.Una vida màs larga y saludable.</p>
+                  <label for="payment-method-1"><b>Método de pago:</b></label>
+                  <select id="payment-method-1" name="payment-method">
+                    <option value="option1">Pago contra entrega</option>
+                    <option value="option2">Tarjeta dèbito </option>
+                    <option value="option3">Tarjeta crèdito</option>
+                  </select>
+                  <button>Agregar al carrito</button>
+                </div>
+                
+                <div class="product">
+                  <h2>Pedigree</h2>
+                  <img src="./Imagenes/comida 2.PNG" alt="Imagen del producto 2">
+                  <p><b> Precio:</b> $38.100</p>
+                  <p><b> Descripción:</b> Alimento para perro adulto raza pequeña. 2</p>
+                  <label for="payment-method-2"><b>Método de pago:</b></label>
+                  <select id="payment-method-2" name="payment-method">
+                    <option value="option1">Pago contra entrega</option>
+                    <option value="option2">Tarjeta dèbito</option>
+                    <option value="option3">Tarjeta crèdito</option>
+                  </select>
+                  <button>Agregar al carrito</button>
+                </div>
+              
+                <div class="product">
+                  <h2>Happy Barf-Beef</h2>
+                  <img src="./Imagenes/comida 3.PNG" alt="Imagen del producto 3">
+                  <p><b> Precio:</b> $2.900</p>
+                  <p><b> Descripción:</b> Contiene pollo, zanahoria,trigo y aceite vegetal.</p>
+                  <label for="payment-method-3"><b>Método de pago:</b></label>
+                  <select id="payment-method-3" name="payment-method">
+                    <option value="option1">Pago contra entrega</option>
+                    <option value="option2">Tarjeta dèbito</option>
+                    <option value="option3">Tarjeta crèdito</option>
+                  </select>
+                  <button>Agregar al carrito</button>
+                </div>
+              
+                <div class="product">
+                  <h2>Kody</h2>
+                  <img src="./Imagenes/comida 4.PNG" alt="Imagen del producto 4">
+                  <p><b> Precio:</b> $15.700</p>
+                  <p><b> Descripción:</b> Contiene prebiòticos que favorecen para una mejor absorciòn de nutrientes.</p>
+                  <label for="payment-method-4"><b>Método de pago:</b></label>
+                  <select id="payment-method-4" name="payment-method">
+                    <option value="option1">Pago contra entrega</option>
+                    <option value="option2">Tarjeta dèbito</option>
+                    <option value="option3">Tarjeta crèdito</option>
+                  </select>
+                  <button>Agregar al carrito</button>
+                </div>
+                <div class="product">
+                    <h2>True Nature</h2>
+                    <img src="./Imagenes/comida 5.PNG" alt="Imagen del producto 5">
+                    <p><b> Precio:</b> $79.990</p>
+                    <p><b> Descripción:</b> Alimento para gatos castrados sabor pollo y vegetales.</p>
+                    <label for="payment-method-5"><b>Método de pago:</b></label>
+                    <select id="payment-method-5" name="payment-method">
+                      <option value="option1">Pago contra entrega</option>
+                      <option value="option2">Tarjeta dèbito</option>
+                      <option value="option3">Tarjeta crèdito</option>
+                    </select>
+                    <button>Agregar al carrito</button>
+                </div>
+                  
+
+                <div class="product">
+                    <h2>Hills</h2>
+                    <img src="./Imagenes/comida 6.PNG" alt="Imagen del producto 6">
+                    <p><b> Precio:</b> $123.200</p>
+                    <p><b> Descripción:</b> Contiene fibra natural que reduce las bolas de pelo.</p>
+                    <label for="payment-method-6"><b>Método de pago:</b></label>
+                    <select id="payment-method-6" name="payment-method">
+                      <option value="option1">Pago contra entrega</option>
+                      <option value="option2">Tarjeta dèbito</option>
+                      <option value="option3">Tarjeta crèdito</option>
+                    </select>
+                    <button>Agregar al carrito</button>
+                </div>
+
+                <div class="product">
+                    <h2>Max-Cat</h2>
+                    <img src="./Imagenes/comida 7.PNG" alt="Imagen del producto 7">
+                    <p><b> Precio:</b> $28.500</p>
+                    <p><b> Descripción:</b> Contiene pollo y arroz, es rico en proteina y vitaminas A,B12,C y D.</p>
+                    <label for="payment-method-7"><b>Método de pago:</b></label>
+                    <select id="payment-method-7" name="payment-method">
+                      <option value="option1">Pago contra entrega</option>
+                      <option value="option2">Tarjeta dèbito</option>
+                      <option value="option3">Tarjeta crèdito</option>
+                    </select>
+                    <button>Agregar al carrito</button>
+                </div>
+
+                <div class="product">
+                    <h2>Chunky Delicat Salmòn</h2>
+                    <img src="./Imagenes/comida 8.PNG" alt="Imagen del producto 8">
+                    <p><b> Precio:</b> $5.700</p>
+                    <p><b> Descripción:</b> Contiene carne de salmòn garantizada al 100%.</p>
+                    <label for="payment-method-7"><b>Método de pago:</b></label>
+                    <select id="payment-method-7" name="payment-method">
+                      <option value="option1">Pago contra entrega</option>
+                      <option value="option2">Tarjeta dèbito</option>
+                      <option value="option3">Tarjeta crèdito</option>
+                    </select>
+                    <button>Agregar al carrito</button>
+                </div>
+
+               
+            
+            </div>
+                  
+              
+    </section>
+
+    <!--Cuarta  seccion---curriculum-->
+
+    <section class="skills" id="curriculum">
+        
+        <h2>JUGUETES</h2> 
+        <section class="products">
+            <div id="contenedor-productos" ></div>
+           
+            <div class="product">
+              <h2>Indupet</h2>
+              <img src="./Imagenes/juguete1.PNG" alt="Imagen del producto 1">
+              <p><b> Precio:</b> $20.400</p>
+              <p>Descripción: Peluche botella Doger</p>
+              <label for="payment-method-1"><b>Método de pago:</b></label>
+              <select id="payment-method-1" name="payment-method">
+                <option value="option1">Pago contra entrega</option>
+                <option value="option2">Tarjeta dèbito</option>
+                <option value="option3">Tarjeta crèdito</option>
+              </select>
+              <button>Agregar al carrito</button><br>
+               <button class="person">Personalizar</button>
+            </div>
+            
+            <div class="product">
+              <h2>Peluche Control De Videojuegos</h2>
+              <img src="./Imagenes/juguete2.PNG" alt="Imagen del producto 2">
+              <p><b> Precio:</b> $20.000</p>
+              <p><b> Descripción:</b> Peluche en forma de control de videojuegos con refuerzo de entretela.</p>
+              <label for="payment-method-2"><b>Método de pago:</b></label>
+              <select id="payment-method-2" name="payment-method">
+                <option value="option1">Pago contra entrega</option>
+                <option value="option2">Tarjeta dèbito</option>
+                <option value="option3">Tarjeta crèdito</option>
+              </select>
+              <button>Agregar al carrito</button>
+              <button class="person">Personalizar</button>
+            </div>
+          
+            <div class="product">
+              <h2>Kong</h2>
+              <img src="./Imagenes/juguete3.PNG" alt="Imagen del producto 3">
+              <p><b> Precio:</b> $58.800</p>
+              <p><b> Descripción:</b> Juguete para buscar y recoger de forma activa y saludable.</p>
+              <label for="payment-method-3"><b>Método de pago:</b></label>
+              <select id="payment-method-3" name="payment-method">
+                <option value="option1">Pago contra entrega</option>
+                <option value="option2">Tarjeta dèbito</option>
+                <option value="option3">Tarjeta crèdito</option>
+              </select>
+              <button>Agregar al carrito</button>
+              <button class="person">Personalizar</button>
+            </div>
+          
+            <div class="product">
+              <h2>Petstages</h2>
+              <img src="./Imagenes/juguete4.PNG" alt="Imagen del producto 4">
+              <p><b> Precio:</b> $87.700</p>
+              <p><b> Descripción:</b> Juguete estrellas nocturno. Inquieto pez, lo enrollas y sigues jugando.</p>
+              <label for="payment-method-4"><b>Método de pago:</b></label>
+              <select id="payment-method-4" name="payment-method">
+                <option value="option1">Pago contra entrega</option>
+                <option value="option2">Tarjeta dèbito</option>
+                <option value="option3">Tarjeta crèdito</option>
+              </select>
+              <button>Agregar al carrito</button>
+              <button class="person">Personalizar</button>
+            </div>
+            <div class="product">
+                <h2>Gato con catnip green magic</h2>
+                <img src="./Imagenes/juguete5.PNG" alt="Imagen del producto 5">
+                <p><b> Precio:</b> $37.300</p>
+                <p><b> Descripción:</b> Juguete para gatos hecho sin rellenos innecesarios ni aromas artificiales.</p>
+                <label for="payment-method-5"><b>Método de pago:</b></label>
+                <select id="payment-method-5" name="payment-method">
+                  <option value="option1">Pago contra entrega</option>
+                  <option value="option2">Tarjeta dèbito</option>
+                  <option value="option3">Tarjeta crèdito</option>
+                </select>
+                <button>Agregar al carrito</button>
+                <button class="person">Personalizar</button>
+            </div>
+              
+
+            <div class="product">
+                <h2>Tùnel gato</h2>
+                <img src="./Imagenes/juguete6.PNG" alt="Imagen del producto 6">
+                <p><b> Precio:</b> $36.500</p>
+                <p><b> Descripción:</b> Estimula su instinto de independencia de tu mascota mientras se divierte</p>
+                <label for="payment-method-6"><b>Método de pago:</b></label>
+                <select id="payment-method-6" name="payment-method">
+                  <option value="option1">Pago contra entrega</option>
+                  <option value="option2">Tarjeta dèbito</option>
+                  <option value="option3">Tarjeta crèdito</option>
+                </select>
+                <button>Agregar al carrito</button>
+                <button class="person">Personalizar</button>
+            </div>
+
+            <div class="product">
+                <h2>Pelota</h2>
+                <img src="./Imagenes/juguete7.PNG" alt="Imagen del producto 7">
+                <p><b> Precio:</b> $21.000</p>
+                <p><b> Descripción:</b> 3 Pelotas medianas para perro, irrompible de Goma y Caucho.</p>
+                <label for="payment-method-6"><b>Método de pago:</b></label>
+                <select id="payment-method-6" name="payment-method">
+                  <option value="option1">Pago contra entrega</option>
+                  <option value="option2">Tarjeta dèbito</option>
+                  <option value="option3">Tarjeta crèdito</option>
+                </select>
+                <button>Agregar al carrito</button>
+                <button class="person">Personalizar</button>
+            </div>
+
+            <div class="product">
+                <h2>Gimnasios</h2>
+                <img src="./Imagenes/juguete8.PNG" alt="Imagen del producto 8">
+                <p><b> Precio:</b> $169.900</p>
+                <p><b> Descripción:</b> Hermosos Gimnasios para tu gato a muy buen precio, garantizados, Variedad de colores y estampados, tela térmica piel de conejo.</p>
+                <label for="payment-method-6"><b>Método de pago:</b></label>
+                <select id="payment-method-6" name="payment-method">
+                  <option value="option1">Pago contra entrega</option>
+                  <option value="option2">Tarjeta dèbito</option>
+                  <option value="option3">Tarjeta crèdito</option>
+                </select>
+                <button>Agregar al carrito</button>
+                <button class="person">Personalizar</button>
+            </div>
+
+           
+        
+        </div>
+              
+          
+</section>
+
+    <!--Personalizados-->
+    <section class="skills" id="portfolio">
+        
+        <h2>ACCESORIOS</h2> 
+        <section class="products">
+            <div id="contenedor-productos" ></div>
+           
+            <div class="product">
+              <h2>Animal Shop-Manos Libres</h2>
+              <img src="./Imagenes/accesorio1.PNG" alt="Imagen del producto 1">
+              <p><b> Precio:</b> $52.700</p>
+              <p><b> Descripción:</b>Productos duraderos con diseños ùnicos resistentes lavables.</p>
+              <label for="payment-method-1"><b>Método de pago:</b></label>
+              <select id="payment-method-1" name="payment-method">
+                <option value="option1">Pago contra entrega</option>
+                <option value="option2">Tarjeta dèbito</option>
+                <option value="option3">Tarjeta crèdito</option>
+              </select>
+              <button>Agregar al carrito</button>
+              <button class="person">Personalizar</button>
+            </div>
+            
+            <div class="product">
+              <h2>Guamba-Cama mascota Donut</h2>
+              <img src="./Imagenes/accesorio2.PNG" alt="Imagen del producto 2">
+              <p><b> Precio:</b> $269.900</p>
+              <p><b> Descripción:</b> Cama comoda, suave y perfecta para tu mascota.</p>
+              <label for="payment-method-2"><b>Método de pago:</b></label>
+              <select id="payment-method-2" name="payment-method">
+                <option value="option1">Pago contra entrega</option>
+                <option value="option2">Tarjeta dèbito</option>
+                <option value="option3">Tarjeta crèdito</option>
+              </select>
+              <button>Agregar al carrito</button>
+              <button class="person">Personalizar</button>
+            </div>
+          
+            <div class="product">
+              <h2>Moderna-Plato para comer</h2>
+              <img src="./Imagenes/accesorio3.PNG" alt="Imagen del producto 3">
+              <p><b> Precio:</b> $62.560</p>
+              <p><b> Descripción:</b> Diseño innovador inclinado con laberinto interno que mantiene las croquetas en movimiento.</p>
+              <label for="payment-method-3"><b>Método de pago:</b></label>
+              <select id="payment-method-3" name="payment-method">
+                <option value="option1">Pago contra entrega</option>
+                <option value="option2">Tarjeta dèbito</option>
+                <option value="option3">Tarjeta crèdito</option>
+              </select>
+              <button>Agregar al carrito</button>
+              <button class="person">Personalizar</button>
+            </div>
+
+            <div class="product">
+              <h2>Dosificador Agua Botellòn</h2>
+              <img src="./Imagenes/accesorio4.PNG" alt="Imagen del producto 2">
+              <p><b> Precio:</b> $21.020</p>
+              <p><b> Descripción:</b> Comedero dosificador de agua botellón para perros y gatos práctico y fácil de usar, diseño exclusivo, producto biodegradable y amigable con el medio ambiente. Disponible en varios colores pregunta por el tuyo.</p>
+              <label for="payment-method-2"><b>Método de pago:</b></label>
+              <select id="payment-method-2" name="payment-method">
+                <option value="option1">Pago contra entrega</option>
+                <option value="option2">Tarjeta dèbito</option>
+                <option value="option3">Tarjeta crèdito</option>
+              </select>
+              <button>Agregar al carrito</button>
+              <button class="person">Personalizar</button>
+            </div>
+          
+          
+
+           
+        
+        </div>
+              
+          
+</section>
+</section>
+
+<!--Quinta  seccion---Portfolio-->
+<section class="skills" id="personalizados">
+    
+    <h2>PERSONALIZADOS </h2> 
+    <section class="products">
+        <div id="contenedor-productos" ></div>
+       
+        <div class="product">
+          <h2>Correa extensible perros</h2>
+          <img src="./Imagenes/personalizado1.PNG" alt="Imagen del producto 1">
+          <p><b> Precio:</b> $131.400</p>
+          <p><b> Descripción:</b>•	Medidas: 15 x 12 x 3,3 cm.
+            •	Área personalizada aproximada: 6,8 cm de diámetro.
+            •	Cinta extensible de 3 metros con freno pulsando el botón superior.
+            •	Material: Carcasa de plástico negro resistente.
+            •	Con enganche tipo mosquetón metálico.
+            </p>
+          <label for="payment-method-1"><b>Método de pago:</b></label>
+          <select id="payment-method-1" name="payment-method">
+            <option value="option1">Pago contra entrega</option>
+            <option value="option2">Tarjeta dèbito</option>
+            <option value="option3">Tarjeta crèdito</option>
+          </select>
+          <button>Agregar al carrito</button>
+          <button class="person">Personalizar</button>
+        </div>
+        
+        <div class="product">
+          <h2>Camiseta Unisex con la cara de tu mascota</h2>
+          <img src="./Imagenes/personalizado2.PNG" alt="Imagen del producto 2">
+          <p><b> Precio:</b> $82.650</p>
+          <p><b> Descripción:</b> •	Material: tejido de punto de poliéster 100%. Agradable tacto, idéntico al de las camisetas de algodón.
+            •	Forma: camiseta de cuello redondo.
+            •	Utilizamos la técnica de sublimación para personalizar tu camiseta.
+            •	La camiseta se hará por defecto en la cara delantera.
+            •	La estampación del producto puede variar ligeramente con respecto a la simulación del editor.
+            </p>
+          <label for="payment-method-2"><b>Método de pago:</b></label>
+          <select id="payment-method-2" name="payment-method">
+            <option value="option1">Pago contra entrega</option>
+            <option value="option2">Tarjeta dèbito</option>
+            <option value="option3">Tarjeta crèdito</option>
+          </select>
+          <button>Agregar al carrito</button>
+          <button class="person">Personalizar</button>
+        </div>
+      
+        <div class="product">
+          <h2>Alfombrilla para mascotas personalizada</h2>
+          <img src="./Imagenes/personalizado3.PNG" alt="Imagen del producto 3">
+          <p><b> Precio:</b> $90.000</p>
+          <p><b> Descripción:</b>•	Medidas: 39 x 49 cm, 40 x 60 cm y 50 x 80 cm
+            •	Grosor: 5 mm
+            •	Área personalizada aproximada: 39 x 49 cm, 40 x 60 cm y 50 x 80 cm
+            •	Material: Está fabricada en poliéster 100% y en látex antideslizante.
+            •	Tiene un tacto muy suave, similar a la franela o al terciopelo.
+            •	Rellenas de una fina capa de espuma, para hacerlas más cómodas.
+            •	Son muy absorbentes.
+            •	Puedes pedir cualquier cantidad, desde 1 sola unidad.
+            </p>
+          <label for="payment-method-3"><b>Método de pago:</b></label>
+          <select id="payment-method-3" name="payment-method">
+            <option value="option1">Pago contra entrega</option>
+            <option value="option2">Tarjeta dèbito</option>
+            <option value="option3">Tarjeta crèdito</option>
+          </select>
+          <button>Agregar al carrito</button>
+          <button class="person">Personalizar</button>
+        </div>
+
+        <div class="product">
+          <h2>Collar personalizado para perros con pañoleta</h2>
+          <img src="./Imagenes/personalizado4.PNG" alt="Imagen del producto 4">
+          <p><b> Precio:</b> $33.889</p>
+          <p><b> Descripción:</b> •	Medidas de la pañoleta: 19,2 cm (Ancho) x 13,5 cm (Alto)
+            •	Medidas del collar: 51,3 cm (Largo) x 2 cm (Ancho)
+            •	Área personalizada aproximada: 19,2 cm (Ancho) x 13'5 cm (Alto)
+            •	Collar ajustable desde 31,3 cm hasta 51,3 cm
+            •	Material: Tejido de poliéster 100%.
+            •	La pañoleta tiene un tacto fino y suave.
+            •	Tiene una anilla para sujetarlo con la correa.
+            </p>
+          <label for="payment-method-2"><b>Método de pago:</b></label>
+          <select id="payment-method-2" name="payment-method">
+            <option value="option1">Pago contra entrega</option>
+            <option value="option2">Tarjeta dèbito</option>
+            <option value="option3">Tarjeta crèdito</option>
+          </select>
+          <button>Agregar al carrito</button>
+          <button class="person">Personalizar</button>
+        </div>
+      
+      
+
+       
+    
+    </div>
+          
+      
+</section>
+
+    <!--Sexta  seccion---Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tù nombre">
+                    <input type="text" placeholder="Nùmero telefònico">
+                    <input type="text" placeholder="Direcciòn de correo">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="Imagenes/Direccion2.PNG" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Avenida Calle 8 # 79c - 15,Kennedy Bogotá
+                            </li>
+                            <li>
+                                <i class="fa-regular fa-mobile"></i>
+                               Llamanos: 3128211769
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                               Email:
+                               gina.aguilar@cun.edu.co
+ricardo.gonzales@cun.edu.co
+dayan.mendez@cun.edu.co
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-regular fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/profile.php?id=100073540724313&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            
+        </div>
+
+        <p>GINA LISET AGUILAR NAVARRO-----DAYAN JULIANA MENDEZ CERON-----RICARDO GONZALES ESQUIVEL </p>
+    </footer>
+    <script src="index.js"></script>
+
+
+</body>
+</html>
